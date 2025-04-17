@@ -1,0 +1,29 @@
+{
+  "name": "mtdfrontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "axios": "^1.8.4",
+    "chart.js": "^4.4.8",
+    "echarts": "^5.6.0",
+    "element-plus": "^2.9.7",
+    "vue": "^3.5.13",
+    "vue-chartjs": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.16",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/runtime-dom": "^3.5.13",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "5.8.2",
+    "vite": "^6.2.4",
+    "vue-tsc": "^2.2.4"
+  }
+}
